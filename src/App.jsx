@@ -3,7 +3,7 @@ import Background from './components/Background';
 import Foreground from './components/Foreground';
 function app() {
   return (
-    <div className='w-full h-screen bg-black bg-zinc-800 '>
+    <div className='w-full h-screen bg-black bg-zinc-800  flex gap-10'>
       <Background />
       <Foreground />
     </div>
